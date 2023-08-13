@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import MainLayout from './components/MainLayout';
+import authorImage from './images/avatar-michelle.jpg';
+import mainImage from './images/drawers.jpg';
+
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const mainContentData = {
+    title:
+      'Shift the overall look and feel by adding these wonderful touches to furniture in your home',
+    description:
+      'Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.',
+    author: {
+      name: 'Michelle Appleton',
+      imageSrc: authorImage,
+    },
+    date: '28 Jun 2020',
+    imageSrc: mainImage,
+    imageAlt: 'Main Image',
+  };
+
+  return <MainLayout {...mainContentData} />;
 }
 
 export default App;
+
+// Shift the overall look and feel by adding these wonderful touches to furniture in your home Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete. Michelle Appleton 28 Jun 2020 Share
