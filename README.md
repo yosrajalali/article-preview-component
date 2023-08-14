@@ -8,8 +8,8 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-article-preview-component-woxFqjXGwB](https://www.frontendmentor.io/solutions/responsive-article-preview-component-woxFqjXGwB)
+- Live Site URL: [https://yosrajalali.github.io/article-preview-component/](https://yosrajalali.github.io/article-preview-component/)
 
 ## Table of contents
 
