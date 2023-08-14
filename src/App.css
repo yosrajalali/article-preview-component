@@ -153,6 +153,21 @@ main {
   color: var(--Light-Grayish-Blue);
 }
 
+@media (min-width: 280px) and (max-width: 300px) {
+  .shareSection {
+    gap: 0.4rem;
+    font-size: 1rem;
+  }
+  .shareIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .authorTitle,
+  .authorDate {
+    font-size: 0.7rem;
+  }
+}
+
 @media (min-width: 600px) {
   main {
     display: flex;
